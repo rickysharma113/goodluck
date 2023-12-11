@@ -1,5 +1,5 @@
-import Develop from './images/Develop.png'
-import ph from './images/iphone.png'
+import Laptop from './images/Laptop.jpg'
+import CPU from './images/CPU.jpg'
 import './App.css';
 import Allroute from './AllRoutes/Allroute';
 import Header from './Header/Header';
@@ -55,14 +55,14 @@ function App() {
      <div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img  src={Develop} class="d-block " alt="..." style={{height:"85vh",width:"100%"}} />
+      <img  src={Laptop} class="d-block " alt="..." style={{height:"85vh",width:"100%"}} />
       
     </div>
     <div class="carousel-item">
-    <img src={ph} class="d-block " alt="..." style={{height:"85vh",width:"100%"}} />
+    <img src={CPU} class="d-block " alt="..." style={{height:"85vh",width:"100%"}} />
     </div>
     <div class="carousel-item">
-      <img src={Develop} class="d-block " alt="..." style={{height:"85vh",width: "100%"}} />
+      <img src={Laptop} class="d-block " alt="..." style={{height:"85vh",width: "100%"}} />
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
