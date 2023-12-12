@@ -2,7 +2,9 @@
 import './App.css';
 import Allroute from './AllRoutes/Allroute';
 import Header from './Header/Header';
-import logo from '../src/images/Remove.png'
+import logo from '../src/images/background.png'
+import Carousel from './Carousel/Carousel';
+
 
 function App() {
   return (
@@ -48,7 +50,6 @@ function App() {
  
     
     <Allroute/>
-    <Service/>
     </>
   );
 }
