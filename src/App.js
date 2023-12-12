@@ -4,6 +4,7 @@ import './App.css';
 import Allroute from './AllRoutes/Allroute';
 import Header from './Header/Header';
 import logo from '../src/images/Remove.png'
+import Service from './Services/Service';
 
 function App() {
   return (
@@ -77,6 +78,7 @@ function App() {
      </div>
     </div>
     <Allroute/>
+    <Service/>
     </>
   );
 }

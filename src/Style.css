@@ -1,0 +1,32 @@
+.servicediv{
+    padding:45px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    text-align: center;
+    padding: 45px;
+}
+
+.font{
+    font-family: "Poppins";
+}
+.font2{
+    font-family: "Bebas Neue", !important;
+   
+}
+
+.text1{
+    font-weight: 800;
+}
+
+.btn{
+    padding: 10px 19px;
+    border-radius: 20px;
+    background-color: #cf261a;
+    color: #fff;
+}
+
+.card-body{
+    background-color: #171b26;
+    color: #fff;
+}
