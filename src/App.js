@@ -4,6 +4,8 @@ import Allroute from './AllRoutes/Allroute';
 import Header from './Header/Header';
 import logo from '../src/images/background.png'
 import Carousel from './Carousel/Carousel';
+import Service from './Services/Service';
+import Services from './images/HomeData/Services';
 
 
 function App() {
@@ -50,6 +52,8 @@ function App() {
  
     
     <Allroute/>
+    <Services/>
+    {/* <Service/> */}
     </>
   );
 }

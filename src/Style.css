@@ -2,7 +2,7 @@
     padding:45px;
     /* display: flex;
     flex-direction: row;
-    justify-content: center; */
+    justify-content: center; */         
     text-align: center;
     padding: 45px;
 }
@@ -10,23 +10,176 @@
 .font{
     font-family: "Poppins";
 }
-.font2{
-    font-family: "Bebas Neue", !important;
+.fontt2{
+    font-family: 'Bebas Neue', sans-serif;
    
 }
 
 .text1{
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .btn{
-    padding: 10px 19px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #cf261a;
     color: #fff;
+    font-size: small;
+}
+
+.btn:hover{
+    background-color: brown;
 }
 
 .card-body{
     background-color: #171b26;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+
+.space{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.card{
+    transition: 0.5s;
+
+}
+
+.card:hover {
+    
+    box-shadow: -12px -12px 0px 0px rgba(199, 0, 0, 1);
+  }
+
+
+.card2{
+    transition: 0.5s;
+
+}
+
+.card2:hover {
+    
+    box-shadow: 10px 10px 0px 0px rgba(199, 0, 0, 1);
+  }
+
+
+
+.card3{
+    transition: 0.5s;
+
+}
+
+.card3:hover {
+    box-shadow: 12px -12px 0px 0px rgba(199, 0, 0, 1);
+  }
+
+  .original-box-shadow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    background-color: #dddddd;
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+    /* border-radius: 3px; */
+    box-shadow: -32px 35px 0px 0px rgba(6, 18, 56, 1);
+  }
+
+  hr{
+    border: 2px solid #cf261a;
+    opacity: 1;
+    width: 8vw; 
+  }
+
+  .check{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid red; */
+    gap: 0.5rem;
+    margin-top: 15px;
+    /* color: #7a7a7a; */
+    /* background-image: url("../"); */
+  }
+
+  .btn2{
+    background-color: #cf261a;
+    color: #fff;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 28px;
+  }
+
+ .demoimg{
+    background-image: url("../src/images/laptop4.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    
+ }
+.democontent{
+    background: rgb(0, 0, 0,0.6);
+    width: 100.7%;
+    height: 100%;
+    color: white;
+    padding-top: 20rem;
+   padding-left: 13px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-bottom: 5px
+  
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+@media screen and (max-width: 780px) {
+   .democontent{
+    padding-top: 10px;
+    width: 103%;
+
+   }
+   
+  }
