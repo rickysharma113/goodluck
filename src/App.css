@@ -71,3 +71,7 @@
     display: none;
   }
 }
+.nav-link:hover{
+color: red;
+border-bottom: 2px solid red;
+}

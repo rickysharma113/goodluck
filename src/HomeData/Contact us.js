@@ -1,5 +1,5 @@
 import React from 'react'
-import lp from "../lpbg.png"
+import lp from "../images/lpbg.png"
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";

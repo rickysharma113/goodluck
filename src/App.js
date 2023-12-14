@@ -3,22 +3,27 @@ import './App.css';
 import Allroute from './AllRoutes/Allroute';
 import Header from './Header/Header';
 import logo from '../src/images/background.png'
-import Carousel from './Carousel/Carousel';
+import Carousel from './HomeData/Carousel/Carousel';
+import Service from './Services/Service';
+import About from './HomeData/About';
+import Process from './HomeData/Process';
+import Testimony from './HomeData/Testimony';
 
 
 function App() {
   return (
     <>
     <Header/>
-    <nav class="navbar navbar-expand-lg bg-light container" style={{display:"flex",}}>
+   <div className='container'>
+   <nav class="navbar navbar-expand-lg bg-light " style={{display:"flex"}}>
     <img src={logo} alt='logo' style={{height:"6vh",width:"10vw"}}/>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> 
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav" style={{ display:"flex", justifyContent:"space-around"}}>
-      <ul class="navbar-nav gap-5">
-        <li class="nav-item ">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav gap-5 m-auto">
+        <li class="nav-item" >
+          <a class="nav-link " aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About Us</a>
@@ -40,15 +45,20 @@ function App() {
           </ul>
         </li>
       </ul>
+    <button className='' style={{ background:"red", border:"none", padding:"10px",borderRadius:"20px",color:"white"}}>Book Now</button>
     </div>
-    <button style={{ background:"red", border:"none", padding:"10px",borderRadius:"20px"}}>Book Now</button>
 </nav>
+   </div>
+
 <Carousel/>
 
      
 
  
-    
+    <Service/>
+    <About/>
+    <Process/>
+    <Testimony/>
     <Allroute/>
     </>
   );

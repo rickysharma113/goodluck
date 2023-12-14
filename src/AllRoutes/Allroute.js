@@ -1,10 +1,10 @@
 import React from 'react'
 import {Route,Routes} from "react-router-dom"
- import Slider from "../images/HomeData/Slider"
-import   About  from '../images/HomeData/About'
-import Services from '../images/HomeData/Services'
+ import Slider from "../HomeData/Slider"
+import   About  from '../HomeData/About'
+import Services from '../HomeData/Services'
 import App from '../App'
-import  Contact  from '../images/HomeData/Contact us'
+import  Contact  from '../HomeData/Contact us'
 export default function Allroute() {
   return (
     <>
